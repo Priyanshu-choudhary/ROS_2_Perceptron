@@ -1,0 +1,9 @@
+source;share/perceptron_robot_description/hook/pythonpath.ps1
+source;share/perceptron_robot_description/hook/pythonpath.dsv
+source;share/perceptron_robot_description/hook/pythonpath.sh
+source;share/perceptron_robot_description/hook/ament_prefix_path.ps1
+source;share/perceptron_robot_description/hook/ament_prefix_path.dsv
+source;share/perceptron_robot_description/hook/ament_prefix_path.sh
+source;../../build/perceptron_robot_description/share/perceptron_robot_description/hook/pythonpath_develop.ps1
+source;../../build/perceptron_robot_description/share/perceptron_robot_description/hook/pythonpath_develop.dsv
+source;../../build/perceptron_robot_description/share/perceptron_robot_description/hook/pythonpath_develop.sh

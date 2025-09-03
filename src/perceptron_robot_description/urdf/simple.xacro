@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<robot name="simple_box_robot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- Base link as a red box -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.5 0.3 0.2"/>  <!-- Length, Width, Height -->
+      </geometry>
+      <material name="red"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.5 0.3 0.2"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1.0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
+  </link>
+
+  <!-- A wheel link as a blue cylinder -->
+  <link name="wheel">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.05" length="0.02"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.05" length="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Fixed joint connecting wheel to base_link -->
+  <joint name="wheel_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="wheel"/>
+    <origin xyz="0.25 0 0" rpy="0 1.5708 0"/>  <!-- Positioned to the right -->
+  </joint>
+
+  <!-- Materials -->
+  <material name="red">
+    <color rgba="1 0 0 1"/>
+  </material>
+
+  <material name="blue">
+    <color rgba="0 0 1 1"/>
+  </material>
+
+</robot>

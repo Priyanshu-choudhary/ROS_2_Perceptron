@@ -1,0 +1,1 @@
+/ros2_ws/perceptron/build/perceptron_robot_hardware/ament_cmake_environment_hooks/local_setup.zsh

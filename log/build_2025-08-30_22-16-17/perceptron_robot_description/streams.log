@@ -1,0 +1,48 @@
+[2.698s] Invoking command in '/ros2_ws/perceptron/build/perceptron_robot_description': PYTHONPATH=/ros2_ws/perceptron/build/perceptron_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/perceptron/install/perceptron_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_ws/perceptron/build/perceptron_robot_description/build --no-deps symlink_data
+[3.802s] running develop
+[4.395s] running egg_info
+[4.396s] creating perceptron_robot_description.egg-info
+[4.397s] writing perceptron_robot_description.egg-info/PKG-INFO
+[4.397s] writing dependency_links to perceptron_robot_description.egg-info/dependency_links.txt
+[4.398s] writing entry points to perceptron_robot_description.egg-info/entry_points.txt
+[4.398s] writing requirements to perceptron_robot_description.egg-info/requires.txt
+[4.399s] writing top-level names to perceptron_robot_description.egg-info/top_level.txt
+[4.399s] writing manifest file 'perceptron_robot_description.egg-info/SOURCES.txt'
+[4.406s] reading manifest file 'perceptron_robot_description.egg-info/SOURCES.txt'
+[4.410s] writing manifest file 'perceptron_robot_description.egg-info/SOURCES.txt'
+[4.416s] running build_ext
+[4.417s] Creating /ros2_ws/perceptron/install/perceptron_robot_description/lib/python3.10/site-packages/perceptron-robot-description.egg-link (link to .)
+[4.421s] 
+[4.421s] Installed /ros2_ws/perceptron/build/perceptron_robot_description
+[4.423s] running symlink_data
+[4.424s] creating /ros2_ws/perceptron/install/perceptron_robot_description/share/ament_index
+[4.424s] creating /ros2_ws/perceptron/install/perceptron_robot_description/share/ament_index/resource_index
+[4.425s] creating /ros2_ws/perceptron/install/perceptron_robot_description/share/ament_index/resource_index/packages
+[4.425s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/resource/perceptron_robot_description -> /ros2_ws/perceptron/install/perceptron_robot_description/share/ament_index/resource_index/packages
+[4.426s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/package.xml -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description
+[4.426s] creating /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/urdf
+[4.427s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/urdf/simple.xacro -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/urdf
+[4.427s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/urdf/perceptron_robot.trans -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/urdf
+[4.428s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/urdf/simple_stl_working.xacro -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/urdf
+[4.428s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/urdf/perceptron_robot.gazebo -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/urdf
+[4.429s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/urdf/perceptron_robot.xacro -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/urdf
+[4.429s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/urdf/materials.xacro -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/urdf
+[4.430s] creating /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/launch
+[4.430s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/launch/display.launch.py -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/launch
+[4.431s] creating /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+[4.431s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/tyre_2.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+[4.432s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/left_2.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+[4.432s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/rim_3.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+[4.433s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/tyre_1.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+[4.433s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/tyre_4.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+[4.434s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/Component5_1.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+[4.434s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/rim_4.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+[4.435s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/Plastic Rim.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+[4.435s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/Tyre.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+[4.436s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/base_link.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+[4.436s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/rim_2.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+[4.437s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/Wheel_1.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+[4.437s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/tyre_3.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+[4.438s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/rim_1.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+[4.438s] symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/Component4_1.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+[4.570s] Invoked command in '/ros2_ws/perceptron/build/perceptron_robot_description' returned '0': PYTHONPATH=/ros2_ws/perceptron/build/perceptron_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/perceptron/install/perceptron_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros2_ws/perceptron/build/perceptron_robot_description/build --no-deps symlink_data

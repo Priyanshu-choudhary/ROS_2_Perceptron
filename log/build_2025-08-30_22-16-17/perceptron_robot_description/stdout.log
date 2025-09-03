@@ -1,0 +1,46 @@
+running develop
+running egg_info
+creating perceptron_robot_description.egg-info
+writing perceptron_robot_description.egg-info/PKG-INFO
+writing dependency_links to perceptron_robot_description.egg-info/dependency_links.txt
+writing entry points to perceptron_robot_description.egg-info/entry_points.txt
+writing requirements to perceptron_robot_description.egg-info/requires.txt
+writing top-level names to perceptron_robot_description.egg-info/top_level.txt
+writing manifest file 'perceptron_robot_description.egg-info/SOURCES.txt'
+reading manifest file 'perceptron_robot_description.egg-info/SOURCES.txt'
+writing manifest file 'perceptron_robot_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /ros2_ws/perceptron/install/perceptron_robot_description/lib/python3.10/site-packages/perceptron-robot-description.egg-link (link to .)
+
+Installed /ros2_ws/perceptron/build/perceptron_robot_description
+running symlink_data
+creating /ros2_ws/perceptron/install/perceptron_robot_description/share/ament_index
+creating /ros2_ws/perceptron/install/perceptron_robot_description/share/ament_index/resource_index
+creating /ros2_ws/perceptron/install/perceptron_robot_description/share/ament_index/resource_index/packages
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/resource/perceptron_robot_description -> /ros2_ws/perceptron/install/perceptron_robot_description/share/ament_index/resource_index/packages
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/package.xml -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description
+creating /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/urdf
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/urdf/simple.xacro -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/urdf
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/urdf/perceptron_robot.trans -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/urdf
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/urdf/simple_stl_working.xacro -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/urdf
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/urdf/perceptron_robot.gazebo -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/urdf
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/urdf/perceptron_robot.xacro -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/urdf
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/urdf/materials.xacro -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/urdf
+creating /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/launch
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/launch/display.launch.py -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/launch
+creating /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/tyre_2.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/left_2.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/rim_3.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/tyre_1.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/tyre_4.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/Component5_1.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/rim_4.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/Plastic Rim.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/Tyre.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/base_link.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/rim_2.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/Wheel_1.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/tyre_3.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/rim_1.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes
+symbolically linking /ros2_ws/perceptron/build/perceptron_robot_description/meshes/Component4_1.stl -> /ros2_ws/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/meshes

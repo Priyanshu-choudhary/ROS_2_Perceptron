@@ -1,0 +1,248 @@
+<?xml version="1.0" ?>
+<robot name="perceptron_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find perceptron_robot_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find perceptron_robot_description)/urdf/perceptron_robot.trans" />
+<xacro:include filename="$(find perceptron_robot_description)/urdf/perceptron_robot.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.15031355076933817 -0.20564481051841643 0.03531321960603249" rpy="0 0 0"/>
+    <mass value="5.283216295852332"/>
+    <inertia ixx="0.132613" iyy="0.084731" izz="0.201957" ixy="0.000161" iyz="-0.0" ixz="-0.000101"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://perceptron_robot_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://perceptron_robot_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="rim_1">
+  <inertial>
+    <origin xyz="0.007487843772255975 1.4220787850072192e-07 2.3373751312227853e-07" rpy="0 0 0"/>
+    <mass value="0.16214137289777972"/>
+    <inertia ixx="0.000105" iyy="9e-05" izz="9e-05" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.343 0.0889 -0.0314" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://perceptron_robot_description/meshes/rim_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.343 0.0889 -0.0314" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://perceptron_robot_description/meshes/rim_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="tyre_1">
+  <inertial>
+    <origin xyz="-0.022499378781032975 7.432448975719375e-08 -2.1858723067008645e-07" rpy="0 0 0"/>
+    <mass value="0.5502920703905811"/>
+    <inertia ixx="0.001663" iyy="0.00102" izz="0.00102" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.373 0.0889 -0.0314" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://perceptron_robot_description/meshes/tyre_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.373 0.0889 -0.0314" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://perceptron_robot_description/meshes/tyre_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="rim_2">
+  <inertial>
+    <origin xyz="0.008487941853639602 -1.413948607087434e-07 1.3311755303613282e-07" rpy="0 0 0"/>
+    <mass value="0.16214137289777972"/>
+    <inertia ixx="0.000105" iyy="9e-05" izz="9e-05" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.348234 0.304852 -0.032423" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://perceptron_robot_description/meshes/rim_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.348234 0.304852 -0.032423" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://perceptron_robot_description/meshes/rim_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="tyre_2">
+  <inertial>
+    <origin xyz="-0.02249928069964946 2.5978772855150822e-08 -2.9254885998419855e-07" rpy="0 0 0"/>
+    <mass value="0.5502920703905811"/>
+    <inertia ixx="0.001663" iyy="0.00102" izz="0.00102" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.379234 0.304852 -0.032423" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://perceptron_robot_description/meshes/tyre_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.379234 0.304852 -0.032423" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://perceptron_robot_description/meshes/tyre_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="rim_3">
+  <inertial>
+    <origin xyz="-0.008487843772256011 6.199178836929775e-09 -2.7385386434236603e-07" rpy="0 0 0"/>
+    <mass value="0.16214137289777972"/>
+    <inertia ixx="0.000105" iyy="9e-05" izz="9e-05" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.032 0.0879 -0.0314" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://perceptron_robot_description/meshes/rim_3.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.032 0.0879 -0.0314" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://perceptron_robot_description/meshes/rim_3.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="tyre_3">
+  <inertial>
+    <origin xyz="0.022500621218967072 1.7357281124896762e-07 -1.5321623789144034e-07" rpy="0 0 0"/>
+    <mass value="0.5502920703905811"/>
+    <inertia ixx="0.001663" iyy="0.00102" izz="0.00102" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.063 0.0879 -0.0314" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://perceptron_robot_description/meshes/tyre_3.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.063 0.0879 -0.0314" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://perceptron_robot_description/meshes/tyre_3.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="rim_4">
+  <inertial>
+    <origin xyz="-0.008487843772256087 6.199178725907473e-09 -2.738538642729771e-07" rpy="0 0 0"/>
+    <mass value="0.16214137289777972"/>
+    <inertia ixx="0.000105" iyy="9e-05" izz="9e-05" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.032 0.3029 -0.0314" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://perceptron_robot_description/meshes/rim_4.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.032 0.3029 -0.0314" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://perceptron_robot_description/meshes/rim_4.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="tyre_4">
+  <inertial>
+    <origin xyz="-0.4661993787810331 -0.03139982642718875 0.1278998467837622" rpy="0 0 0"/>
+    <mass value="0.5502920703905811"/>
+    <inertia ixx="0.001663" iyy="0.00102" izz="0.00102" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.42545 0.2715 0.0965" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://perceptron_robot_description/meshes/tyre_4.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.42545 0.2715 0.0965" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://perceptron_robot_description/meshes/tyre_4.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Revolute_5" type="continuous">
+  <origin xyz="0.343 -0.0889 0.0314" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="rim_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<joint name="Rigid_6" type="fixed">
+  <origin xyz="0.03 0.0 0.0" rpy="0 0 0"/>
+  <parent link="rim_1"/>
+  <child link="tyre_1"/>
+</joint>
+
+<joint name="Revolute_7" type="continuous">
+  <origin xyz="0.348234 -0.304852 0.032423" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="rim_2"/>
+  <axis xyz="1.0 0.0 0.0"/>
+</joint>
+
+<joint name="Rigid_8" type="fixed">
+  <origin xyz="0.031 0.0 0.0" rpy="0 0 0"/>
+  <parent link="rim_2"/>
+  <child link="tyre_2"/>
+</joint>
+
+<joint name="Revolute_9" type="continuous">
+  <origin xyz="-0.032 -0.0879 0.0314" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="rim_3"/>
+  <axis xyz="-1.0 0.0 0.0"/>
+</joint>
+
+<joint name="Rigid_10" type="fixed">
+  <origin xyz="-0.031 0.0 0.0" rpy="0 0 0"/>
+  <parent link="rim_3"/>
+  <child link="tyre_3"/>
+</joint>
+
+<joint name="Revolute_11" type="continuous">
+  <origin xyz="-0.032 -0.3029 0.0314" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="rim_4"/>
+  <axis xyz="-1.0 0.0 0.0"/>
+</joint>
+
+<joint name="Rigid_12" type="fixed">
+  <origin xyz="0.45745 0.0314 -0.1279" rpy="0 0 0"/>
+  <parent link="rim_4"/>
+  <child link="tyre_4"/>
+</joint>
+
+</robot>
