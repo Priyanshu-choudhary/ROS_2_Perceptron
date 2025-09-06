@@ -1,1 +1,0 @@
-/ros2_ws/perceptron/build/perceptron_robot_hardware/ament_cmake_core/perceptron_robot_hardwareConfig-version.cmake

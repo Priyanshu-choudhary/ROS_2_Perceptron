@@ -1,0 +1,22 @@
+[1.711s] Invoking command in '/home/yadi/perceptron/src/perceptron_robot_description': PYTHONPATH=/home/yadi/perceptron/build/perceptron_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yadi/perceptron/install/perceptron_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perceptron_robot_description build --build-base /home/yadi/perceptron/build/perceptron_robot_description/build install --record /home/yadi/perceptron/build/perceptron_robot_description/install.log --single-version-externally-managed install_data
+[2.007s] running egg_info
+[2.010s] writing ../../build/perceptron_robot_description/perceptron_robot_description.egg-info/PKG-INFO
+[2.011s] writing dependency_links to ../../build/perceptron_robot_description/perceptron_robot_description.egg-info/dependency_links.txt
+[2.012s] writing entry points to ../../build/perceptron_robot_description/perceptron_robot_description.egg-info/entry_points.txt
+[2.012s] writing requirements to ../../build/perceptron_robot_description/perceptron_robot_description.egg-info/requires.txt
+[2.013s] writing top-level names to ../../build/perceptron_robot_description/perceptron_robot_description.egg-info/top_level.txt
+[2.015s] reading manifest file '../../build/perceptron_robot_description/perceptron_robot_description.egg-info/SOURCES.txt'
+[2.016s] writing manifest file '../../build/perceptron_robot_description/perceptron_robot_description.egg-info/SOURCES.txt'
+[2.017s] running build
+[2.017s] running build_py
+[2.017s] running install
+[2.018s] running install_lib
+[2.022s] running install_data
+[2.022s] copying urdf/perceptron_robot.gazebo -> /home/yadi/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/urdf
+[2.024s] copying urdf/perceptron_robot.xacro -> /home/yadi/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/urdf
+[2.025s] running install_egg_info
+[2.028s] removing '/home/yadi/perceptron/install/perceptron_robot_description/lib/python3.10/site-packages/perceptron_robot_description-0.0.0-py3.10.egg-info' (and everything under it)
+[2.030s] Copying ../../build/perceptron_robot_description/perceptron_robot_description.egg-info to /home/yadi/perceptron/install/perceptron_robot_description/lib/python3.10/site-packages/perceptron_robot_description-0.0.0-py3.10.egg-info
+[2.036s] running install_scripts
+[2.068s] writing list of installed files to '/home/yadi/perceptron/build/perceptron_robot_description/install.log'
+[2.129s] Invoked command in '/home/yadi/perceptron/src/perceptron_robot_description' returned '0': PYTHONPATH=/home/yadi/perceptron/build/perceptron_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yadi/perceptron/install/perceptron_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perceptron_robot_description build --build-base /home/yadi/perceptron/build/perceptron_robot_description/build install --record /home/yadi/perceptron/build/perceptron_robot_description/install.log --single-version-externally-managed install_data

@@ -1,4 +1,0 @@
-source;share/perceptron_robot_hardware/local_setup.bash
-source;share/perceptron_robot_hardware/local_setup.dsv
-source;share/perceptron_robot_hardware/local_setup.sh
-source;share/perceptron_robot_hardware/local_setup.zsh
