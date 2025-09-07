@@ -1,0 +1,284 @@
+[0.213s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.213s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f58e809df30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f58e809d0f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f58e809d0f0>>)
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.373s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yadi/perceptron'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_bringup) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_bringup) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_bringup) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_bringup) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_bringup) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_bringup) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_bringup) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_bringup) by extension 'ros'
+[0.390s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perceptron_robot_bringup' with type 'ros.ament_python' and name 'perceptron_robot_bringup'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_control) by extension 'ignore'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_control) by extension 'ignore_ament_install'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_control) by extensions ['colcon_pkg']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_control) by extension 'colcon_pkg'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_control) by extensions ['colcon_meta']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_control) by extension 'colcon_meta'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_control) by extensions ['ros']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_control) by extension 'ros'
+[0.391s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perceptron_robot_control' with type 'ros.ament_python' and name 'perceptron_robot_control'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_description) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_description) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_description) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_description) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_description) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_description) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_description) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_description) by extension 'ros'
+[0.392s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perceptron_robot_description' with type 'ros.ament_python' and name 'perceptron_robot_description'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_gazebo) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_gazebo) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_gazebo) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_gazebo) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_gazebo) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_gazebo) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_gazebo) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/perceptron_robot_gazebo) by extension 'ros'
+[0.394s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perceptron_robot_gazebo' with type 'ros.ament_python' and name 'perceptron_robot_gazebo'
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.426s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yadi/perceptron/install/perceptron_robot_gazebo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.426s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yadi/perceptron/install/perceptron_robot_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yadi/perceptron/install/perceptron_robot_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.427s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yadi/perceptron/install/perceptron_robot_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.428s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/yadi/perceptron/install
+[0.429s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/yadi/husky/install
+[0.432s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 369 installed packages in /opt/ros/humble
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.483s] DEBUG:colcon.colcon_core.verb:Building package 'perceptron_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yadi/perceptron/build/perceptron_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yadi/perceptron/install/perceptron_robot_bringup', 'merge_install': False, 'path': '/home/yadi/perceptron/src/perceptron_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_control' build argument 'cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_control' build argument 'cmake_target' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.484s] DEBUG:colcon.colcon_core.verb:Building package 'perceptron_robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yadi/perceptron/build/perceptron_robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yadi/perceptron/install/perceptron_robot_control', 'merge_install': False, 'path': '/home/yadi/perceptron/src/perceptron_robot_control', 'symlink_install': False, 'test_result_base': None}
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.484s] DEBUG:colcon.colcon_core.verb:Building package 'perceptron_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yadi/perceptron/build/perceptron_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yadi/perceptron/install/perceptron_robot_description', 'merge_install': False, 'path': '/home/yadi/perceptron/src/perceptron_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'perceptron_robot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.485s] DEBUG:colcon.colcon_core.verb:Building package 'perceptron_robot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yadi/perceptron/build/perceptron_robot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yadi/perceptron/install/perceptron_robot_gazebo', 'merge_install': False, 'path': '/home/yadi/perceptron/src/perceptron_robot_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.485s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.486s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.487s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yadi/perceptron/src/perceptron_robot_bringup' with build type 'ament_python'
+[0.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('perceptron_robot_bringup', 'ament_prefix_path')
+[0.494s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yadi/perceptron/install/perceptron_robot_bringup/share/perceptron_robot_bringup/hook/ament_prefix_path.ps1'
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yadi/perceptron/install/perceptron_robot_bringup/share/perceptron_robot_bringup/hook/ament_prefix_path.dsv'
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yadi/perceptron/install/perceptron_robot_bringup/share/perceptron_robot_bringup/hook/ament_prefix_path.sh'
+[0.498s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.498s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.507s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yadi/perceptron/src/perceptron_robot_control' with build type 'ament_python'
+[0.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('perceptron_robot_control', 'ament_prefix_path')
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yadi/perceptron/install/perceptron_robot_control/share/perceptron_robot_control/hook/ament_prefix_path.ps1'
+[0.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yadi/perceptron/install/perceptron_robot_control/share/perceptron_robot_control/hook/ament_prefix_path.dsv'
+[0.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yadi/perceptron/install/perceptron_robot_control/share/perceptron_robot_control/hook/ament_prefix_path.sh'
+[0.512s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.512s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.515s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yadi/perceptron/src/perceptron_robot_description' with build type 'ament_python'
+[0.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('perceptron_robot_description', 'ament_prefix_path')
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yadi/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/hook/ament_prefix_path.ps1'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yadi/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/hook/ament_prefix_path.dsv'
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yadi/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/hook/ament_prefix_path.sh'
+[0.526s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.526s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.530s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yadi/perceptron/src/perceptron_robot_gazebo' with build type 'ament_python'
+[0.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('perceptron_robot_gazebo', 'ament_prefix_path')
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yadi/perceptron/install/perceptron_robot_gazebo/share/perceptron_robot_gazebo/hook/ament_prefix_path.ps1'
+[0.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yadi/perceptron/install/perceptron_robot_gazebo/share/perceptron_robot_gazebo/hook/ament_prefix_path.dsv'
+[0.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yadi/perceptron/install/perceptron_robot_gazebo/share/perceptron_robot_gazebo/hook/ament_prefix_path.sh'
+[0.535s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.535s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.808s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yadi/perceptron/src/perceptron_robot_bringup'
+[0.809s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.809s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.097s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yadi/perceptron/src/perceptron_robot_control'
+[1.098s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.098s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.344s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yadi/perceptron/src/perceptron_robot_description'
+[1.345s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.345s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.592s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yadi/perceptron/src/perceptron_robot_gazebo'
+[1.592s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.593s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yadi/perceptron/src/perceptron_robot_description': PYTHONPATH=/home/yadi/perceptron/build/perceptron_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yadi/perceptron/install/perceptron_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perceptron_robot_description build --build-base /home/yadi/perceptron/build/perceptron_robot_description/build install --record /home/yadi/perceptron/build/perceptron_robot_description/install.log --single-version-externally-managed install_data
+[2.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yadi/perceptron/src/perceptron_robot_gazebo': PYTHONPATH=/home/yadi/perceptron/build/perceptron_robot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yadi/perceptron/install/perceptron_robot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perceptron_robot_gazebo build --build-base /home/yadi/perceptron/build/perceptron_robot_gazebo/build install --record /home/yadi/perceptron/build/perceptron_robot_gazebo/install.log --single-version-externally-managed install_data
+[2.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yadi/perceptron/src/perceptron_robot_control': PYTHONPATH=/home/yadi/perceptron/build/perceptron_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yadi/perceptron/install/perceptron_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perceptron_robot_control build --build-base /home/yadi/perceptron/build/perceptron_robot_control/build install --record /home/yadi/perceptron/build/perceptron_robot_control/install.log --single-version-externally-managed install_data
+[2.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yadi/perceptron/src/perceptron_robot_bringup': PYTHONPATH=/home/yadi/perceptron/build/perceptron_robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yadi/perceptron/install/perceptron_robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perceptron_robot_bringup build --build-base /home/yadi/perceptron/build/perceptron_robot_bringup/build install --record /home/yadi/perceptron/build/perceptron_robot_bringup/install.log --single-version-externally-managed install_data
+[2.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yadi/perceptron/src/perceptron_robot_control' returned '0': PYTHONPATH=/home/yadi/perceptron/build/perceptron_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yadi/perceptron/install/perceptron_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perceptron_robot_control build --build-base /home/yadi/perceptron/build/perceptron_robot_control/build install --record /home/yadi/perceptron/build/perceptron_robot_control/install.log --single-version-externally-managed install_data
+[2.867s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_control' for CMake module files
+[2.868s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_control' for CMake config files
+[2.870s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_control/lib'
+[2.870s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_control/bin'
+[2.870s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_control/lib/pkgconfig/perceptron_robot_control.pc'
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_control/lib/python3.10/site-packages'
+[2.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('perceptron_robot_control', 'pythonpath')
+[2.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yadi/perceptron/install/perceptron_robot_control/share/perceptron_robot_control/hook/pythonpath.ps1'
+[2.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yadi/perceptron/install/perceptron_robot_control/share/perceptron_robot_control/hook/pythonpath.dsv'
+[2.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yadi/perceptron/install/perceptron_robot_control/share/perceptron_robot_control/hook/pythonpath.sh'
+[2.874s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_control/bin'
+[2.875s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perceptron_robot_control)
+[2.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/yadi/perceptron/install/perceptron_robot_control/share/perceptron_robot_control/package.ps1'
+[2.877s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yadi/perceptron/install/perceptron_robot_control/share/perceptron_robot_control/package.dsv'
+[2.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/yadi/perceptron/install/perceptron_robot_control/share/perceptron_robot_control/package.sh'
+[2.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/yadi/perceptron/install/perceptron_robot_control/share/perceptron_robot_control/package.bash'
+[2.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/yadi/perceptron/install/perceptron_robot_control/share/perceptron_robot_control/package.zsh'
+[2.882s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yadi/perceptron/install/perceptron_robot_control/share/colcon-core/packages/perceptron_robot_control)
+[2.892s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_description' for CMake module files
+[2.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yadi/perceptron/src/perceptron_robot_description' returned '0': PYTHONPATH=/home/yadi/perceptron/build/perceptron_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yadi/perceptron/install/perceptron_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perceptron_robot_description build --build-base /home/yadi/perceptron/build/perceptron_robot_description/build install --record /home/yadi/perceptron/build/perceptron_robot_description/install.log --single-version-externally-managed install_data
+[2.895s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_description' for CMake config files
+[2.895s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_description/lib'
+[2.896s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_description/bin'
+[2.896s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_description/lib/pkgconfig/perceptron_robot_description.pc'
+[2.896s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_description/lib/python3.10/site-packages'
+[2.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('perceptron_robot_description', 'pythonpath')
+[2.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yadi/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/hook/pythonpath.ps1'
+[2.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yadi/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/hook/pythonpath.dsv'
+[2.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yadi/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/hook/pythonpath.sh'
+[2.901s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_description/bin'
+[2.901s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perceptron_robot_description)
+[2.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/yadi/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/package.ps1'
+[2.903s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yadi/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/package.dsv'
+[2.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/yadi/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/package.sh'
+[2.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/yadi/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/package.bash'
+[2.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/yadi/perceptron/install/perceptron_robot_description/share/perceptron_robot_description/package.zsh'
+[2.912s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yadi/perceptron/install/perceptron_robot_description/share/colcon-core/packages/perceptron_robot_description)
+[2.922s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_gazebo' for CMake module files
+[2.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yadi/perceptron/src/perceptron_robot_gazebo' returned '0': PYTHONPATH=/home/yadi/perceptron/build/perceptron_robot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yadi/perceptron/install/perceptron_robot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perceptron_robot_gazebo build --build-base /home/yadi/perceptron/build/perceptron_robot_gazebo/build install --record /home/yadi/perceptron/build/perceptron_robot_gazebo/install.log --single-version-externally-managed install_data
+[2.928s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_gazebo' for CMake config files
+[2.929s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_gazebo/lib'
+[2.929s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_gazebo/bin'
+[2.930s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_gazebo/lib/pkgconfig/perceptron_robot_gazebo.pc'
+[2.930s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_gazebo/lib/python3.10/site-packages'
+[2.931s] Level 1:colcon.colcon_core.shell:create_environment_hook('perceptron_robot_gazebo', 'pythonpath')
+[2.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yadi/perceptron/install/perceptron_robot_gazebo/share/perceptron_robot_gazebo/hook/pythonpath.ps1'
+[2.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yadi/perceptron/install/perceptron_robot_gazebo/share/perceptron_robot_gazebo/hook/pythonpath.dsv'
+[2.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yadi/perceptron/install/perceptron_robot_gazebo/share/perceptron_robot_gazebo/hook/pythonpath.sh'
+[2.933s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_gazebo/bin'
+[2.934s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perceptron_robot_gazebo)
+[2.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/yadi/perceptron/install/perceptron_robot_gazebo/share/perceptron_robot_gazebo/package.ps1'
+[2.935s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yadi/perceptron/install/perceptron_robot_gazebo/share/perceptron_robot_gazebo/package.dsv'
+[2.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/yadi/perceptron/install/perceptron_robot_gazebo/share/perceptron_robot_gazebo/package.sh'
+[2.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/yadi/perceptron/install/perceptron_robot_gazebo/share/perceptron_robot_gazebo/package.bash'
+[2.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/yadi/perceptron/install/perceptron_robot_gazebo/share/perceptron_robot_gazebo/package.zsh'
+[2.938s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yadi/perceptron/install/perceptron_robot_gazebo/share/colcon-core/packages/perceptron_robot_gazebo)
+[2.967s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_bringup' for CMake module files
+[2.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yadi/perceptron/src/perceptron_robot_bringup' returned '0': PYTHONPATH=/home/yadi/perceptron/build/perceptron_robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yadi/perceptron/install/perceptron_robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perceptron_robot_bringup build --build-base /home/yadi/perceptron/build/perceptron_robot_bringup/build install --record /home/yadi/perceptron/build/perceptron_robot_bringup/install.log --single-version-externally-managed install_data
+[2.968s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_bringup' for CMake config files
+[2.969s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_bringup/lib'
+[2.969s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_bringup/bin'
+[2.969s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_bringup/lib/pkgconfig/perceptron_robot_bringup.pc'
+[2.969s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_bringup/lib/python3.10/site-packages'
+[2.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('perceptron_robot_bringup', 'pythonpath')
+[2.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yadi/perceptron/install/perceptron_robot_bringup/share/perceptron_robot_bringup/hook/pythonpath.ps1'
+[2.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yadi/perceptron/install/perceptron_robot_bringup/share/perceptron_robot_bringup/hook/pythonpath.dsv'
+[2.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yadi/perceptron/install/perceptron_robot_bringup/share/perceptron_robot_bringup/hook/pythonpath.sh'
+[2.972s] Level 1:colcon.colcon_core.environment:checking '/home/yadi/perceptron/install/perceptron_robot_bringup/bin'
+[2.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perceptron_robot_bringup)
+[2.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/yadi/perceptron/install/perceptron_robot_bringup/share/perceptron_robot_bringup/package.ps1'
+[2.974s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yadi/perceptron/install/perceptron_robot_bringup/share/perceptron_robot_bringup/package.dsv'
+[2.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/yadi/perceptron/install/perceptron_robot_bringup/share/perceptron_robot_bringup/package.sh'
+[2.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/yadi/perceptron/install/perceptron_robot_bringup/share/perceptron_robot_bringup/package.bash'
+[2.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/yadi/perceptron/install/perceptron_robot_bringup/share/perceptron_robot_bringup/package.zsh'
+[2.976s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yadi/perceptron/install/perceptron_robot_bringup/share/colcon-core/packages/perceptron_robot_bringup)
+[2.978s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.978s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.979s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.980s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.062s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.062s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.062s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.062s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.063s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[3.063s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.063s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yadi/perceptron/install/local_setup.ps1'
+[3.064s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yadi/perceptron/install/_local_setup_util_ps1.py'
+[3.066s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yadi/perceptron/install/setup.ps1'
+[3.068s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yadi/perceptron/install/local_setup.sh'
+[3.069s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yadi/perceptron/install/_local_setup_util_sh.py'
+[3.070s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yadi/perceptron/install/setup.sh'
+[3.073s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yadi/perceptron/install/local_setup.bash'
+[3.074s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yadi/perceptron/install/setup.bash'
+[3.075s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yadi/perceptron/install/local_setup.zsh'
+[3.077s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yadi/perceptron/install/setup.zsh'

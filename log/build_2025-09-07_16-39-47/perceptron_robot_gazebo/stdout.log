@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/perceptron_robot_gazebo/perceptron_robot_gazebo.egg-info
+writing ../../build/perceptron_robot_gazebo/perceptron_robot_gazebo.egg-info/PKG-INFO
+writing dependency_links to ../../build/perceptron_robot_gazebo/perceptron_robot_gazebo.egg-info/dependency_links.txt
+writing entry points to ../../build/perceptron_robot_gazebo/perceptron_robot_gazebo.egg-info/entry_points.txt
+writing requirements to ../../build/perceptron_robot_gazebo/perceptron_robot_gazebo.egg-info/requires.txt
+writing top-level names to ../../build/perceptron_robot_gazebo/perceptron_robot_gazebo.egg-info/top_level.txt
+writing manifest file '../../build/perceptron_robot_gazebo/perceptron_robot_gazebo.egg-info/SOURCES.txt'
+reading manifest file '../../build/perceptron_robot_gazebo/perceptron_robot_gazebo.egg-info/SOURCES.txt'
+writing manifest file '../../build/perceptron_robot_gazebo/perceptron_robot_gazebo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yadi/perceptron/build/perceptron_robot_gazebo/build
+creating /home/yadi/perceptron/build/perceptron_robot_gazebo/build/lib
+creating /home/yadi/perceptron/build/perceptron_robot_gazebo/build/lib/perceptron_robot_gazebo
+copying perceptron_robot_gazebo/__init__.py -> /home/yadi/perceptron/build/perceptron_robot_gazebo/build/lib/perceptron_robot_gazebo
+running install
+running install_lib
+creating /home/yadi/perceptron/install/perceptron_robot_gazebo/lib/python3.10/site-packages/perceptron_robot_gazebo
+copying /home/yadi/perceptron/build/perceptron_robot_gazebo/build/lib/perceptron_robot_gazebo/__init__.py -> /home/yadi/perceptron/install/perceptron_robot_gazebo/lib/python3.10/site-packages/perceptron_robot_gazebo
+byte-compiling /home/yadi/perceptron/install/perceptron_robot_gazebo/lib/python3.10/site-packages/perceptron_robot_gazebo/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/yadi/perceptron/install/perceptron_robot_gazebo/share/ament_index
+creating /home/yadi/perceptron/install/perceptron_robot_gazebo/share/ament_index/resource_index
+creating /home/yadi/perceptron/install/perceptron_robot_gazebo/share/ament_index/resource_index/packages
+copying resource/perceptron_robot_gazebo -> /home/yadi/perceptron/install/perceptron_robot_gazebo/share/ament_index/resource_index/packages
+copying package.xml -> /home/yadi/perceptron/install/perceptron_robot_gazebo/share/perceptron_robot_gazebo
+creating /home/yadi/perceptron/install/perceptron_robot_gazebo/share/perceptron_robot_gazebo/launch
+copying launch/gazebo.launch.py -> /home/yadi/perceptron/install/perceptron_robot_gazebo/share/perceptron_robot_gazebo/launch
+running install_egg_info
+Copying ../../build/perceptron_robot_gazebo/perceptron_robot_gazebo.egg-info to /home/yadi/perceptron/install/perceptron_robot_gazebo/lib/python3.10/site-packages/perceptron_robot_gazebo-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/yadi/perceptron/build/perceptron_robot_gazebo/install.log'
