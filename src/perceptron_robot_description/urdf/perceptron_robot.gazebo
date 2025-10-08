@@ -1,4 +1,4 @@
-<!-- <?xml version="1.0" ?>
+ <?xml version="1.0" ?>
 <robot name="perceptron_robot" xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
 <xacro:property name="body_color" value="Gazebo/Silver" />
@@ -75,4 +75,4 @@
   <selfCollide>true</selfCollide>
 </gazebo>
 
-</robot> -->
+</robot> 

@@ -14,7 +14,7 @@ def generate_launch_description():
     robot_description = Command([
     'xacro ', xacro_file,
     ' is_sim:=false',
-])
+    ])
 
 
     return LaunchDescription([

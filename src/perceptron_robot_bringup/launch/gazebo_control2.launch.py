@@ -94,7 +94,7 @@ def generate_launch_description():
     )
 
     # gzserver (physics)
-    gzserver = ExecuteProcess(
+    gzserver = ExecuteProcess( 
         cmd=['gzserver',
              '-s', 'libgazebo_ros_init.so',
              '-s', 'libgazebo_ros_factory.so',

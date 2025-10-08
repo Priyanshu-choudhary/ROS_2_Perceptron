@@ -7,6 +7,8 @@
 <xacro:arg name="is_sim" default="true"/>
 <xacro:arg name="gazebo_controllers" default="$(find perceptron_robot_control)/config/controllers.yaml"/>
 
+<xacro:property name="pkg_desc" value="$(find-pkg-share perceptron_robot_description)" />
+
 
 
 <link name="base_link">
